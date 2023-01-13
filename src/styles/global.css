@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  /* CORES */
+  --cor-primaria: #2e948a;
+  --cor-secundaria: #ff4081;
+  --cor-fundo-claro: #f7f7f7;
+}
