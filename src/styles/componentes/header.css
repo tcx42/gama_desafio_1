@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 117px;
+  background-color: var(--cor-primaria);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+  z-index: 100;
+}
+header a {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+  margin: auto 1rem;
+}
+header a:hover {
+  text-shadow: 1px 1px 2px var(--cor-secundaria);
+}
+/* Mobile */
+@media screen and (max-width: 480px) {
+  header {
+    flex-direction: column;
+  }
+}
