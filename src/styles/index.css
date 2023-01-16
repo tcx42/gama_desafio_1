@@ -1,0 +1,43 @@
+.secao-introducao {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 513px;
+  margin: 100px auto;
+}
+.secao-introducao h1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: var(--cor-secundaria);
+}
+.secao-introducao p {
+  font-size: 1.688rem;
+  font-weight: 400;
+  color: #555;
+  margin: 20px auto;
+}
+.secao-introducao a {
+  font-size: 1.688rem;
+  font-weight: 400;
+  color: var(--cor-secundaria);
+  border: 2px solid var(--cor-secundaria);
+  border-radius: 62px;
+  padding: 12px 26px;
+}
+.secao-introducao a:hover {
+  color: #fff;
+  background-color: var(--cor-secundaria);
+}
+.container-texto-introducao {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 24rem;
+}
+.secao-cards-cursos {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--cor-fundo-claro);
+  padding: 75px 0;
+}
