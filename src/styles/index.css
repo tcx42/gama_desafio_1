@@ -17,6 +17,9 @@
   margin: 20px auto;
 }
 .secao-introducao a {
+  background-color: #fff;
+}
+.botao-vazio-com-borda {
   font-size: 1.688rem;
   font-weight: 400;
   color: var(--cor-secundaria);
@@ -24,7 +27,7 @@
   border-radius: 62px;
   padding: 12px 26px;
 }
-.secao-introducao a:hover {
+.botao-vazio-com-borda:hover {
   color: #fff;
   background-color: var(--cor-secundaria);
 }
@@ -37,7 +40,140 @@
 }
 .secao-cards-cursos {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: var(--cor-fundo-claro);
   padding: 75px 0;
+}
+.secao-sobre-nos {
+  max-width: 1200px;
+  padding: 53.5px 0;
+  margin: auto;
+}
+.secao-sobre-nos .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.secao-sobre-nos h2 {
+  font-size: 2.313rem;
+  font-weight: 700;
+  color: var(--cor-primaria);
+  width: fit-content;
+  margin: 40px 14px;
+}
+.card-pessoa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+.card-pessoa img {
+  margin: 14px;
+}
+.card-pessoa .texto {
+  font-size: 1.125rem;
+  max-width: 363px;
+  margin: 14px;
+}
+.card-pessoa .texto p:first-child {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.card-pessoa .texto p:nth-child(2) {
+  font-weight: 400;
+}
+.secao-mais-conteudo {
+  background-color: var(--cor-fundo-claro);
+}
+.secao-mais-conteudo .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  max-width: 1200px;
+  height: 680px;
+  margin: auto;
+}
+.secao-mais-conteudo .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.secao-mais-conteudo .card {
+  width: 319px;
+}
+.secao-mais-conteudo h2 {
+  font-size: 2.313rem;
+  font-weight: 700;
+  color: var(--cor-primaria);
+}
+.secao-mais-conteudo .quadrado-cinza {
+  background-color: #c4c4c4;
+  width: 319px;
+  height: 193px;
+}
+.secao-mais-conteudo .card h4 {
+  font-size: 1.688rem;
+  font-weight: 700;
+  color: var(--cor-primaria);
+  margin: 1rem 0 0.5rem 0;
+}
+.secao-mais-conteudo .card p {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.secao-mais-conteudo a {
+  margin: 12px auto;
+}
+@media screen and (max-width: 1024px) {
+  .secao-sobre-nos h2 {
+    text-align: center;
+    margin: 14px auto;
+  }
+  .secao-sobre-nos .cards {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 992px) {
+  .secao-introducao {
+    height: fit-content;
+  }
+  .secao-introducao img {
+    position: absolute;
+    width: 80%;
+    z-index: -1;
+    opacity: 0.6;
+  }
+  .container-texto-introducao {
+    align-items: center;
+    text-align: center;
+  }
+  .container-texto-introducao h1,
+  .container-texto-introducao p {
+    text-shadow: 2px 2px 3px #fff;
+  }
+  .secao-cards-cursos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .secao-cards-cursos .card-curso:not(:first-child) {
+    margin-top: 50px;
+  }
+  .secao-mais-conteudo .container {
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    padding: 50px 0;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    margin: 35px 0;
+  }
 }
