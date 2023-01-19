@@ -1,0 +1,262 @@
+.container h1 {
+    position: absolute;
+    width: 512px;
+    height: 126px;
+    left: 202px;
+    top: 210px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    color: var(--cor-secundaria);
+}
+.container p {
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 202px;
+    top: 358px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.container img {
+    position: absolute;
+    left: 52.15%;
+    right: 21.46%;
+    top: 28%;  
+}
+.secao-2 {
+    background-color: var(--cor-fundo-claro);
+    padding: 45%;
+}
+.img-1 {
+    position: absolute;
+    width: 462px;
+    height: 261px;
+    left: 213px;
+    top: 734px;
+}
+.img-2 {
+    position: absolute; 
+    width: 90px;
+    height: 90px;
+    left: 399px;
+    top: 820px;
+}
+.img-3 {
+    position: absolute;
+    width: 56px;
+    height: 53px;
+    left: 425px;
+    top: 837.37px;
+}
+h1 {
+    position: absolute;
+    width: 512px;
+    height: 40px;
+    left: 751px;
+    top: 734px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: var(--cor-secundaria);
+}
+p {
+    position: absolute;
+    width: 501px;
+    height: 195px;
+    left: 751px;
+    top: 800px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.linha-1 {
+    position: absolute;
+    width: 1244px;
+    height: 3px;
+    left: 98px;
+    top: 1068px;
+}
+.linha-2 {
+    position: absolute;
+    width: 1244px;
+    height: 3px;
+    left: 98px;
+    top: 1480px;
+}
+.img-4 {
+    position: absolute;
+    width: 462px;
+    height: 261px;
+    left: 213px;
+    top: 1146px;
+}
+.img-5 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 399px;
+    top: 1232px;
+}
+.img-6 {
+    position: absolute;
+    width: 56px;
+    height: 53px;
+    left: 425px;
+    top: 1249.37px;
+}
+.img-7 {
+    position: absolute;
+    width: 462px;
+    height: 261px;
+    left: 213px;
+    top: 1558px;
+}
+.img-8 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 399px;
+    top: 1644px;
+}
+.img-9 {
+    position: absolute;
+    width: 56px;
+    height: 53px;
+    left: 425px;
+    top: 1661.37px;
+}
+.card-bg-2 h1 {
+    top: 1146px;
+}
+.card-bg-2 p {
+    top: 1212px;
+}
+.card-bg-3 h1 {
+    top: 1558px;
+}
+.card-bg-3 p {
+    top: 1624px;
+}
+footer {
+    position: absolute;
+    top: 2000px;
+    width: 100%;
+}
+@media screen and (max-width: 480px) {
+    #secao-1 h1 {
+        text-align: center;
+        left: -2px;
+        width: 100%;
+    }
+    #secao-1 p {
+        top: 400px;
+        text-align: center;
+        left: -2px;
+        width: 100%;
+      
+    }
+    #secao-1 img {
+        position: absolute;
+        left: 4px;
+        z-index: -1;
+        opacity: 0.6;
+    }
+} 
+@media screen and (max-width: 1024px) {
+    .img-1 {
+        left: 35px;
+        text-align: center;
+        width: 318px;
+        height: 159px;
+    }
+    .img-2 {
+        text-align: center;
+        left: 140px;
+        top: 768px;
+    }
+    .img-3 {
+        text-align: center;
+        left: 165px;
+        top: 785px;
+    }
+    .img-4 {
+        left: 35px;
+        text-align: center;
+        width: 318px;
+        height: 159px;
+    }
+    .img-5 {
+        text-align: center;
+        left: 140px;
+        top: 1182px;
+    }
+    .img-6 {
+        text-align: center;
+        left: 165px;
+        top: 1200px;
+    }
+    .img-7 {
+        left: 35px;
+        text-align: center;
+        width: 318px;
+        height: 159px;
+    }
+    .img-8 {
+        text-align: center;
+        left: 140px;
+        top: 1595px;
+    }
+    .img-9 {
+        text-align: center;
+        left: 165px;
+        top: 1612px;
+    }
+    .linha-1 img {
+        width: 200px;
+    }
+    .linha-2 img {
+        width: 200px;
+    }
+    .card-vertical h1 {
+        left: -75px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .card-vertical p {
+        left: 6px;
+        width: 100%;
+        height: 80px;
+        font-weight: 200; 
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .card-bg-1 h1 {
+        top: 690px;
+    }
+    .card-bg-1 p {
+        top: 920px;
+    }
+    .card-bg-2 h1 {
+        top: 1100px;
+    }
+    .card-bg-2 p {
+        top: 1330px;
+    }
+    .card-bg-3 h1 {
+        top: 1515px;
+    }
+    .card-bg-3 p {
+        top: 1740px;
+    }
+    .secao-2 {
+        height: 1310px;
+    }
+}

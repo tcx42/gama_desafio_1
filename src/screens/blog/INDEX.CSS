@@ -32,8 +32,10 @@
     left: 825px;
     top: -120px;
 }
-#card-horizontal {
-    background: #635b5b;
+.secao-2 {
+    background-color: var(--cor-fundo-claro);
+    padding: 50%;
+    
 }
 #card-horizontal img {
     width: 518px;
@@ -152,6 +154,44 @@
 }
 footer {
     position: absolute;
-    top: 2300px;
+    top: 2260px;
     width: 100%;
 }
+@media screen and (max-width: 480px) {
+    #secao-1 h1 {
+        text-align: center;
+        left: -60px;
+        top: 10px;    
+    }
+    #secao-1 p {
+        text-align: center;
+        left: -4px;
+        width: fit-content;
+        top: 400px;
+    }
+    #secao-1 img {
+        text-align: center;
+        left: -10px;  
+    }
+    }
+    @media screen and (max-width: 1024px) {
+        #card-horizontal img {
+            left: 35px;
+            text-align: center;
+            width: 318px;
+            height: 259px;
+        }
+        #card-horizontal h1 {
+            left: 6px;
+            text-align: center;
+            font-size: 25px;
+        }
+        #card-horizontal p {
+            left: 6px;
+            width: 100%;
+            height: 80px;
+            font-weight: 200;
+            font-size: 14px;
+            line-height: 25px;
+        }
+    }
