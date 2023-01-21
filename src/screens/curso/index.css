@@ -150,7 +150,7 @@ footer {
     top: 2000px;
     width: 100%;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
     #secao-1 h1 {
         text-align: center;
         left: -2px;
@@ -170,7 +170,7 @@ footer {
         opacity: 0.6;
     }
 } 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
     .img-1 {
         left: 35px;
         text-align: center;
