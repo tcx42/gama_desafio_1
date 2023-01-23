@@ -2,4 +2,4 @@
 
 ## Desafio em grupo para o curso da Gama Academy
 
-tcx42.github.io/gama_desafio_1/
+<a href="tcx42.github.io/gama_desafio_1/">githubPages/Desafio</a>
